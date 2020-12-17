@@ -1,0 +1,38 @@
+header {
+  background-color: #313744;
+  padding: 15px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  position: fixed;
+  width: 100%;
+  z-index: 100;
+}
+
+#practiceTypeSelect {
+  margin: 0px 10px;
+  width: 250px;
+}
+.control-items {
+  display: flex;
+}
+.control-items > button {
+  margin: 0px 10px;
+  white-space: nowrap;
+}
+.logo {
+  color: white;
+  font-style: italic;
+  height: 50px;
+}
+.geo-data {
+  width: 40px;
+  margin-right: 20px;
+}
+
+.content {
+  background-color: #232937;
+  height: 100%;
+  padding: 25px;
+  padding-top: 30px;
+}

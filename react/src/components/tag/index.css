@@ -1,0 +1,34 @@
+.tag {
+    display: flex;
+    border-radius: 20px;
+    background-color: teal;
+    padding: 5px 10px;
+    align-items: center;
+    margin: 5px 5px;
+}
+
+.tag .label {
+    margin-right: 10px;
+    color: white;
+}
+.tag .close-btn {
+    background-color: white;
+    border-radius: 50%;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: relative;
+}
+
+.tag .close-btn:hover {
+    opacity: 0.5;
+}
+
+.tag .close-btn span {
+    position: absolute;
+    transform: translate(-50%, -57%);
+    left: 50%;
+    top: 50%;
+    font-size: 20px;
+    color: teal;
+}

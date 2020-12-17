@@ -1,0 +1,94 @@
+.home {
+    padding-bottom: 25px;
+    margin-top: 70px;
+}
+
+.home > .loading {
+    position: absolute;
+    z-index: 1000;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.asrt-page-length .input-group-addon {
+    margin: auto 0 !important;
+    background: transparent !important;
+}
+
+.asrt-page-length .input-group-addon span {
+    color: white !important;
+}
+
+.asrt-page-length > select {
+    border: none !important;
+    background-color: #313744 !important;
+    border-radius: 10px !important;
+    color: white !important;
+}
+
+#as-react-datatable-table-body td {
+    color: white !important;
+}
+
+#as-react-datatable-table-body .table-bordered td, .table-bordered th {
+    border: 1px solid #616a72;
+}
+
+#as-react-datatable-table-body .table thead th {
+    border-bottom: 2px solid #616a72;
+}
+
+.page-link, .page-item.disabled .page-link, .page-link input, .table_filter input {
+    background-color: #232937 !important;
+    border-color: #616a72 !important;
+}
+
+.table_filter {
+    margin-right: 15px !important;
+}
+
+.table_filter input {
+    color: white !important;
+}
+
+.page-link input {
+    color: white !important;
+}
+
+.asrt-td-loading {
+    background: transparent;
+}
+
+.asrt-table-foot > div:first-child {
+    color: white !important;
+}
+
+.add-filter {
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: flex-end;
+}
+
+.add-filter > input, .add-filter > select {
+    width: 250px;
+    margin-right: 10px;
+}
+
+.add-filter > select {
+    margin-left: 10px;
+}
+
+.add-filter > select > option:disabled {
+    color: red;
+}
+
+.columns-select {
+    margin-right: 20px;
+}
+
+.filter-tags {
+    margin-bottom: 10px;
+    display: flex;
+    flex-wrap: wrap;
+}

@@ -1,0 +1,35 @@
+.login-container {
+    max-width: 600px;
+    border-radius: 20px;
+    background-color: #2a3240;
+    padding: 50px 50px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.login-container > h1 {
+    color: white;
+    text-align: center;
+}
+
+.login-container > p {
+    color: white;
+    text-align: center;
+}
+
+.login-container .form-control:focus {
+    color: black;
+}
+
+.form-group > label {
+    color: white;
+}
+
+.form-group > input {
+    background-color: #444550;
+    color: white;
+    border-color: transparent;
+    height: 50px;
+}

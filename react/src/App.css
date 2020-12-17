@@ -1,0 +1,19 @@
+@import 'styles.scss';
+@import "./pages/dashboard/index.css";
+@import "./pages/login/index.css";
+@import "./pages/home/index.css";
+@import "./pages/geodata/index.css";
+@import "./components/tag/index.css";
+
+html, body, #root {
+    height: 100%;
+    background-color: #232937;
+}
+
+layout {
+    background-color: #232937;
+    height: 100%;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center; */
+}

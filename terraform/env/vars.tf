@@ -1,0 +1,5 @@
+variable "public_key" {
+  default     = "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC3nrno0Fh7pNfe63MQ1tJgjACgYkr1wugEy2XzJFrM/CA1c+k/X0KgHgYtrMRhBD18H4y45w/xkDUT2Qt7ulSNZoGiysdqBcMhvq4m17++zxESDaJhGBeEPSqmXQSpYs0swEisR0uDsO+YoAOFyahz172mzSsMemXNOw2y64CKzhrvS8Ga3OYFLaM4lzCOHXvEA9UVXw8TpIF6fszvEj9dOhLwgAKxP9kZRM/ndh2tOBTKOxSiE09zf+tHl2YWDlZIUQd/LfkbjcgxWgzL8bnf/U8fb9mdgRaNKfRVVNcFg7xuhkA924FXSAN0HWXMTTe4yBiTOc6A4qFmZ42KWUf9 engy"  
+}
+
+
