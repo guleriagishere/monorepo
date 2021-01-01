@@ -9,14 +9,14 @@ MESSAGE=$(git log -1 HEAD --pretty=format:%s)
         echo "node pipeline."
         echo "Uploading node data to s3 bucket."
         zip -r node.zip node-api
-        aws s3 cp node.zip s3://monorepo-bucket/   
+        aws s3 cp node.zip s3://monorepo-node-api   /   
         # aws codepipeline start-pipeline-execution --name monorepo-nodeapp
         ;;
     *react*) 
         echo "React pipeline"
         echo "Uploading react data to s3 bucket."
         zip -r react.zip react
-        aws s3 cp react.zip s3://monorepo-bucket/        
+        aws s3 cp react.zip s3://monorepo-react/        
         # aws codepipeline start-pipeline-execution --name monorepo-react
         ;; 
     *terraform*)  
