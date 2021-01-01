@@ -9,7 +9,7 @@ MESSAGE=$(git log -1 HEAD --pretty=format:%s)
         echo "node pipeline."
         echo "Uploading node data to s3 bucket."
         zip -r node.zip node-api
-        aws s3 cp node.zip s3://monorepo-node-api   /   
+        aws s3 cp node.zip s3://monorepo-node-api/
         # aws codepipeline start-pipeline-execution --name monorepo-nodeapp
         ;;
     *react*) 
