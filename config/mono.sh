@@ -1,6 +1,9 @@
 #!/bin/bash
 
 set +x
+
+MESSAGE=$(git log -1 HEAD --pretty=format:%s)
+
   case "$MESSAGE" in
     *node*)
         echo "node pipeline."
