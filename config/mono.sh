@@ -30,3 +30,4 @@ MESSAGE=$(git log -1 HEAD --pretty=format:%s)
         echo "no matches"
         ;;
   esac
+
